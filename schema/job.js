@@ -5,8 +5,8 @@ const jobSchema = new mongoose.Schema({
     title:{
         type:String,
         required:true,
-        minlenght:5,
-        maxlenght:255,
+        minlength:5,
+        maxlength:255,
         trim:true,
         required:true,
     },
